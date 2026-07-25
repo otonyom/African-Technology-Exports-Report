@@ -40,7 +40,6 @@ The clearest evidence that the enabling-conditions bundle is currently becoming 
 
 ---
 
----
 ## Scope, Definitions, and Method
 
 This report inventories technologies invented or substantially built by Africans living and working in Africa, and evaluates each case against a specific, deliberately strict test: does the technology function as a genuine export — adopted by the rest of the world on its own merits — or is it better described as a strong domestic or Africa-linked achievement that has been marketed using the language of global adoption?
