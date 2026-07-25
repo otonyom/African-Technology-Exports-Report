@@ -23,6 +23,13 @@ jobs:
         run: |
           for file in *.md; do
             [ -e "$file" ] || continue
+            
+            # 👈 This line checks if the file name is readme.md or README.md and skips it
+            if [ "${file,,}" = "readme.md" ]; then
+              echo "Skipping $file..."
+              continue
+            fi
+            
             filename="${file%.md}"
             echo "Converting $file to final_pdfs/${filename}.pdf..."
             docker run --rm -v ${{ github.workspace }}:/data pandoc/latex:latest --output="final_pdfs/${filename}.pdf" "$file"
@@ -31,11 +38,8 @@ jobs:
       - name: Commit and Push PDFs Directly to Repository
         run: |
           git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.email "41898282+github-actions[bot]@://github.com"
           
-          # Stage the freshly generated PDFs
           git add final_pdfs/*.pdf
-          
-          # Commit only if changes exist, avoiding empty failure runs
           git commit -m "Automated PDF update [skip ci]" || echo "No changes to commit"
           git push
