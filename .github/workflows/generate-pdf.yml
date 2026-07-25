@@ -19,8 +19,13 @@ jobs:
           output_dir: pdf_outputs/   # Where the finished PDFs will be saved
           build_html: false
 
-      - name: Upload PDF Artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: latest-document-pdfs
-          path: pdf_outputs/
+      - name: Commit and Push PDFs to Repository
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@://github.com"
+          mkdir -p final_pdfs
+          cp pdf_outputs/* final_pdfs/
+          git add final_pdfs/
+          git commit -m "Automated PDF generation [skip ci]" || echo "No changes to commit"
+          git push
+
