@@ -10,7 +10,6 @@ toc: true
 toc-title: "Contents"
 ---
 
----
 ## Executive Summary
 
 ### Central finding
