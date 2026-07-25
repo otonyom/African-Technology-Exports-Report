@@ -65,6 +65,7 @@ A fifth, cross-cutting section addresses post-2015 digital-era ventures (fintech
 
 This report was compiled through iterative, sourced web research rather than from a pre-existing list. Several categories that are commonly cited in popular "African inventions" listicles were investigated and excluded or heavily qualified once checked against primary or well-sourced secondary reporting — including the CAT scan (the working device was completed by the inventor after emigration), M-Pesa (the founding concept originated at Vodafone in London), and the bulk of Nigeria's celebrated inventor lists (largely diaspora achievements completed abroad). These exclusions are documented in the relevant sections rather than silently dropped, because the pattern of what does not qualify is as informative as the pattern of what does.
 
+---
 
 ## Category 1 — Pre-Colonial Africa (Context Only)
 
