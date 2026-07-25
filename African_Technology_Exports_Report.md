@@ -1,8 +1,11 @@
 ---
 title: "African-Invented Technology Adopted by the Rest of the World"
 subtitle: "A research inventory and analysis of the minimum conditions required to produce globally-adopted, Africa-agnostic technology"
-author: "By Dr. O.E. Mangete" 
-assisted by: "    Claude (Anthropic)"
+author:  |
+  By
+  Dr. O.E. Mangete
+  
+  assisted by: Claude (Anthropic)"
 date: "July 25, 2026"
 geometry: "top=1.25in, bottom=1.25in, left=1.25in, right=1.25in"
 fontsize: 11pt
