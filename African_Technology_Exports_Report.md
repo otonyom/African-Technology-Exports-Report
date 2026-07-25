@@ -1,26 +1,13 @@
-# African-Invented Technology Adopted by the Rest of the World
-
-*A research inventory and analysis of the minimum conditions required to produce globally-adopted, Africa-agnostic technology*
-
-Prepared for Dr. Otonyo Mangete
-Compiled by Claude (Anthropic)
-July 25, 2026
-
 ---
-
-## Contents
-
-1. [Scope, Definitions, and Method](#scope-definitions-and-method)
-2. [Executive Summary](#executive-summary)
-3. [Category 1 — Pre-Colonial Africa (Context Only)](#category-1--pre-colonial-africa-context-only)
-4. [Category 2 — Colonial & Post-Colonial Africa Outside South Africa](#category-2--colonial--post-colonial-africa-outside-south-africa)
-5. [Category 3 — Apartheid-Era South Africa (1948–1994)](#category-3--apartheid-era-south-africa-19481994)
-6. [Category 4 — Post-Apartheid South Africa (1994–Present)](#category-4--post-apartheid-south-africa-1994present)
-7. [Category 5 — The Post-2015 Digital Era (Whole Continent)](#category-5--the-post-2015-digital-era-whole-continent)
-8. [The Growth Signal: African Participation in Global Open-Source Infrastructure](#the-growth-signal-african-participation-in-global-open-source-infrastructure)
-9. [Synthesis: What the Pattern Implies About Minimum Requirements](#synthesis-what-the-pattern-implies-about-minimum-requirements)
-10. [Source List](#source-list)
-
+title: "African-Invented Technology Adopted by the Rest of the World"
+subtitle: "A research inventory and analysis of the minimum conditions required to produce globally-adopted, Africa-agnostic technology"
+author: "Compiled by Claude (Anthropic)"
+date: "July 25, 2026"
+geometry: "top=1.25in, bottom=1.25in, left=1.25in, right=1.25in"
+fontsize: 11pt
+mainfont: "DejaVu Serif"
+toc: true
+toc-title: "Contents"
 ---
 
 ## Scope, Definitions, and Method
