@@ -4,7 +4,10 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch: # 👈 This line adds a manual "Run workflow" button to GitHub
+  workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   convert-to-pdf:
@@ -25,8 +28,14 @@ jobs:
             docker run --rm -v ${{ github.workspace }}:/data pandoc/latex:latest --output="final_pdfs/${filename}.pdf" "$file"
           done
 
-      - name: Upload PDF Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: latest-document-pdfs
-          path: final_pdfs/
+      - name: Commit and Push PDFs Directly to Repository
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # Stage the freshly generated PDFs
+          git add final_pdfs/*.pdf
+          
+          # Commit only if changes exist, avoiding empty failure runs
+          git commit -m "Automated PDF update [skip ci]" || echo "No changes to commit"
+          git push
