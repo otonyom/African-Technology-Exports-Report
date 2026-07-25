@@ -16,13 +16,17 @@ jobs:
         run: mkdir -p final_pdfs
 
       - name: Run Pandoc PDF Converter
-        uses: docker://pandoc/latex:latest
-        with:
-          args: --output=final_pdfs/document.pdf *.md
-          # This automatically finds ANY .md file in your main folder and builds one PDF
+        # This loop finds each .md file, strips the ".md", and builds a matching ".pdf"
+        run: |
+          for file in *.md; do
+            [ -e "$file" ] || continue
+            filename="${file%.md}"
+            echo "Converting $file to final_pdfs/${filename}.pdf..."
+            docker run --rm -v ${{ github.workspace }}:/data pandoc/latex:latest --output="final_pdfs/${filename}.pdf" "$file"
+          done
 
       - name: Upload PDF Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: latest-document-pdf
+          name: latest-document-pdfs
           path: final_pdfs/
