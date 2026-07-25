@@ -3,29 +3,26 @@ name: Generate PDF from Markdown
 on:
   push:
     branches:
-      - main  # Runs automatically whenever you update the main branch
+      - main
 
 jobs:
-  build-pdf:
+  convert-to-pdf:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Convert Markdown to PDF
-        uses: baileyjm02/markdown-to-pdf@v1
+      - name: Create Output Folder
+        run: mkdir -p final_pdfs
+
+      - name: Run Pandoc PDF Converter
+        uses: docker://pandoc/latex:latest
         with:
-          input_path: docs/          # The folder where you keep your .md files
-          output_dir: pdf_outputs/   # Where the finished PDFs will be saved
-          build_html: false
+          args: --output=final_pdfs/document.pdf *.md
+          # This automatically finds ANY .md file in your main folder and builds one PDF
 
-      - name: Commit and Push PDFs to Repository
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@://github.com"
-          mkdir -p final_pdfs
-          cp pdf_outputs/* final_pdfs/
-          git add final_pdfs/
-          git commit -m "Automated PDF generation [skip ci]" || echo "No changes to commit"
-          git push
-
+      - name: Upload PDF Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: latest-document-pdf
+          path: final_pdfs/
