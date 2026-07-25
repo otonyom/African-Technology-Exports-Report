@@ -5,7 +5,6 @@ author:  |
   By
   Dr. O.E. Mangete
   
-  assisted by: Claude (Anthropic)"
 date: "July 25, 2026"
 geometry: "top=1.25in, bottom=1.25in, left=1.25in, right=1.25in"
 fontsize: 11pt
@@ -66,7 +65,7 @@ A fifth, cross-cutting section addresses post-2015 digital-era ventures (fintech
 
 ### A note on method and honesty of findings
 
-This report was compiled through iterative, sourced web research rather than from a pre-existing list. Several categories that are commonly cited in popular "African inventions" listicles were investigated and excluded or heavily qualified once checked against primary or well-sourced secondary reporting — including the CAT scan (the working device was completed by the inventor after emigration), M-Pesa (the founding concept originated at Vodafone in London), and the bulk of Nigeria's celebrated inventor lists (largely diaspora achievements completed abroad). These exclusions are documented in the relevant sections rather than silently dropped, because the pattern of what does not qualify is as informative as the pattern of what does.
+This report was compiled through iterative, sourced web research rather than from a pre-existing list. Several categories that are commonly cited in popular "African inventions" listicles were investigated and excluded or heavily qualified once checked against primary or well-sourced secondary reporting — including the CAT scan (the working device was completed by the inventor after emigration), M-Pesa (the founding concept originated at Vodafone in London), and the bulk of Nigeria's celebrated inventor lists (largely diaspora achievements completed abroad). These exclusions are documented in the relevant sections rather than silently dropped, because the pattern of what does not qualify is as informative as the pattern of what does. Compilation was done with the help of the AI model Claude(Anthropic)
 
 ---
 
