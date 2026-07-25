@@ -10,33 +10,7 @@ toc: true
 toc-title: "Contents"
 ---
 
-## Scope, Definitions, and Method
-
-This report inventories technologies invented or substantially built by Africans living and working in Africa, and evaluates each case against a specific, deliberately strict test: does the technology function as a genuine export — adopted by the rest of the world on its own merits — or is it better described as a strong domestic or Africa-linked achievement that has been marketed using the language of global adoption?
-
-### The core test: Africa-agnostic adoption
-
-A technology passes the test used throughout this report if its value proposition does not depend on Africa being a party to its use. A concrete way to apply this: remove Africa entirely from the transaction or use-case, and ask whether the technology still has a reason to be chosen. Internet security certificates, breakwater armor units, and PHP web frameworks pass this test easily — a Bavarian insurer or a Californian shipping port adopts these tools with no reference to Africa at all. Cross-border payment platforms built specifically to solve Africa's currency fragmentation do not pass this test, however large their transaction volumes, because their entire reason for being chosen is that one or both parties to the transaction are linked to Africa.
-
-This distinction is not a judgment about the value or difficulty of Africa-linked achievements — solving a genuine $180 billion-a-year payments fragmentation problem is real value creation. It is a classification device, used because the person commissioning this report specifically wants to isolate cases that could plausibly attract ordinary global growth capital chasing universal returns, as distinct from cases that succeed by being development- or diaspora-linked.
-
-### Time period and geographic scope
-
-The primary period covered is the last 130 years (from roughly 1896 to the present), consistent with the industrial and post-industrial era in which internationally tradable, patentable, or exportable technology became possible at scale. Findings are organized into four historical/political categories, at the requester's direction:
-
-- Pre-colonial Africa (context only, outside the 130-year window)
-- Colonial and post-colonial Africa outside South Africa
-- Apartheid-era South Africa (1948–1994)
-- Post-apartheid South Africa (1994–present)
-
-A fifth, cross-cutting section addresses post-2015 digital-era ventures (fintech, deep tech, open source, and SaaS) across the whole continent, since these do not sort cleanly into the historical categories above and required their own analytical treatment.
-
-### A note on method and honesty of findings
-
-This report was compiled through iterative, sourced web research rather than from a pre-existing list. Several categories that are commonly cited in popular "African inventions" listicles were investigated and excluded or heavily qualified once checked against primary or well-sourced secondary reporting — including the CAT scan (the working device was completed by the inventor after emigration), M-Pesa (the founding concept originated at Vodafone in London), and the bulk of Nigeria's celebrated inventor lists (largely diaspora achievements completed abroad). These exclusions are documented in the relevant sections rather than silently dropped, because the pattern of what does not qualify is as informative as the pattern of what does.
-
 ---
-
 ## Executive Summary
 
 ### Central finding
@@ -65,6 +39,33 @@ Raw inventive and engineering capacity is not the limiting factor and has not be
 The clearest evidence that the enabling-conditions bundle is currently becoming more accessible is not any single company, but the raw supply of software engineering capacity. GitHub's own country-level data shows the combined developer population of Nigeria, Egypt, South Africa, Morocco, and Kenya grew from roughly 716,000 in 2021 to over 3.7 million in 2024 — roughly a fivefold increase in three years, with the growth rate itself still rising (Kenya at 33% year-over-year in 2024). This is a supply-side capacity signal, independent of any one company's business model, and GitHub's own analysis attributes it to falling costs of participation (mobile connectivity, locally-capable AI tools) rather than to capital inflows — meaning capacity is already compounding on cheap, non-equity inputs, and the open question is what converts that capacity into owned, Africa-agnostic products rather than labor-arbitrage services.
 
 ---
+
+---
+## Scope, Definitions, and Method
+
+This report inventories technologies invented or substantially built by Africans living and working in Africa, and evaluates each case against a specific, deliberately strict test: does the technology function as a genuine export — adopted by the rest of the world on its own merits — or is it better described as a strong domestic or Africa-linked achievement that has been marketed using the language of global adoption?
+
+### The core test: Africa-agnostic adoption
+
+A technology passes the test used throughout this report if its value proposition does not depend on Africa being a party to its use. A concrete way to apply this: remove Africa entirely from the transaction or use-case, and ask whether the technology still has a reason to be chosen. Internet security certificates, breakwater armor units, and PHP web frameworks pass this test easily — a Bavarian insurer or a Californian shipping port adopts these tools with no reference to Africa at all. Cross-border payment platforms built specifically to solve Africa's currency fragmentation do not pass this test, however large their transaction volumes, because their entire reason for being chosen is that one or both parties to the transaction are linked to Africa.
+
+This distinction is not a judgment about the value or difficulty of Africa-linked achievements — solving a genuine $180 billion-a-year payments fragmentation problem is real value creation. It is a classification device, used because the person commissioning this report specifically wants to isolate cases that could plausibly attract ordinary global growth capital chasing universal returns, as distinct from cases that succeed by being development- or diaspora-linked.
+
+### Time period and geographic scope
+
+The primary period covered is the last 130 years (from roughly 1896 to the present), consistent with the industrial and post-industrial era in which internationally tradable, patentable, or exportable technology became possible at scale. Findings are organized into four historical/political categories, at the requester's direction:
+
+- Pre-colonial Africa (context only, outside the 130-year window)
+- Colonial and post-colonial Africa outside South Africa
+- Apartheid-era South Africa (1948–1994)
+- Post-apartheid South Africa (1994–present)
+
+A fifth, cross-cutting section addresses post-2015 digital-era ventures (fintech, deep tech, open source, and SaaS) across the whole continent, since these do not sort cleanly into the historical categories above and required their own analytical treatment.
+
+### A note on method and honesty of findings
+
+This report was compiled through iterative, sourced web research rather than from a pre-existing list. Several categories that are commonly cited in popular "African inventions" listicles were investigated and excluded or heavily qualified once checked against primary or well-sourced secondary reporting — including the CAT scan (the working device was completed by the inventor after emigration), M-Pesa (the founding concept originated at Vodafone in London), and the bulk of Nigeria's celebrated inventor lists (largely diaspora achievements completed abroad). These exclusions are documented in the relevant sections rather than silently dropped, because the pattern of what does not qualify is as informative as the pattern of what does.
+
 
 ## Category 1 — Pre-Colonial Africa (Context Only)
 
